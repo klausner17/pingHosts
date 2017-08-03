@@ -1,0 +1,7 @@
+{
+    "hosts":[
+        {"tag": "GOOGL", "url": "www.google.com"},
+        {"tag": "TERRA", "url": "www.terra.com"},
+        {"tag": "YAHOO", "url": "www.yahoo.com"}
+    ]
+}
