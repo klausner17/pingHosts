@@ -15,7 +15,10 @@ class PingHosts{
      */
     public pingAllHosts() {
         for(var host in this._hosts){
-            console.log(host);
+            ping.promise.probe(this._hosts[host].url)
+                .then((res) => {
+                    console.log(res);
+                });
         } 
     }
 }

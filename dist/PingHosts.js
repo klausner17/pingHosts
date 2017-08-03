@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const ping = require("ping");
 class PingHosts {
     /**
      * Construtor.
@@ -13,7 +14,10 @@ class PingHosts {
      */
     pingAllHosts() {
         for (var host in this._hosts) {
-            console.log(host);
+            ping.promise.probe(this._hosts[host].url)
+                .then((res) => {
+                console.log(res);
+            });
         }
     }
 }
