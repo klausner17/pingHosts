@@ -1,0 +1,3 @@
+interface IHost{
+    url: string;
+}
