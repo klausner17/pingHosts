@@ -1,4 +1,4 @@
-import Host from './Host';
+import Host from '../models/Host';
 
 class HostIterator implements IIterator {
     

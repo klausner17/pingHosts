@@ -1,5 +1,5 @@
-import Host from './Host';
-import HostIterator from './HostIterator';
+import Host from './models/Host';
+import HostIterator from './iterator/HostIterator';
 import * as ping from 'ping';
 const HOSTS = require('./data/hosts.json');
 
