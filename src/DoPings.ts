@@ -12,7 +12,8 @@ class DoPings{
     }
 
     public ping(){
-        console.log('Pingando em todas os hosts.')
+        console.log('Pingando em todas os hosts.');
+        console.log('===========================');
         while(this._iterator.hasNext()){
             let host = this._iterator.next() as Host;
             ping.promise.probe(host.url)

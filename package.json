@@ -12,6 +12,7 @@
   "devDependencies": {
     "@types/node": "^8.0.19",
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
     "gulp-copy": "^1.0.0",
     "gulp-typescript": "^3.2.1",
     "ping": "^0.2.2",

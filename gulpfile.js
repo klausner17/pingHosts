@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const ts = require('gulp-typescript');
+const clean = require('gulp-clean');
 const JSON_FILES = ['src/*.json', 'src/**/*.json'];
 
 // pull in the project TypeScript config
@@ -12,7 +13,7 @@ gulp.task('scripts', () => {
 });
 
 gulp.task('watch', ['scripts'], () => {
-  gulp.watch('src/**/*.ts', ['scripts']);
+  gulp.watch(['src/**/*.ts','!src/**/*.if.ts'], ['scripts'])
 });
 
 gulp.task('assets', function() {
@@ -25,5 +26,10 @@ gulp.task('data', function() {
   .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['watch', 'assets']);
+gulp.task('clean', function() {
+  return gulp.src('./dist/**/*.if.js')
+  .pipe(clean());
+});
+
+gulp.task('default', ['watch', 'assets', 'clean']);
 gulp.task('gulp-copy', ['data']);
