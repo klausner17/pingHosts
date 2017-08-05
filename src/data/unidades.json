@@ -1,0 +1,310 @@
+{
+    "unidades": [
+        {
+            "tag": "IPA01",
+            "nome": "Ipanema - Pç NS da Paz",
+            "sq": 1,
+            "url": "10.1.0.12"
+        },
+        {
+            "tag": "BAR01",
+            "nome": "Barra - Shopping Città",
+            "sq": 2,
+            "url": "10.2.0.12"
+        },
+        {
+            "tag": "COPAC",
+            "nome": "Copa - N.S. Copacabana",
+            "sq": 3,
+            "url": "10.4.0.12"
+        },
+        {
+            "tag": "IPA02",
+            "nome": "Ipanema - B. da Torre",
+            "sq": 4,
+            "url": "10.5.0.12"
+        },
+        {
+            "tag": "LEB01",
+            "nome": "Leblon - Gal Urquiza",
+            "sq": 5,
+            "url": "10.6.0.12"
+        },
+        {
+            "tag": "IPA03",
+            "nome": "Ipanema - G. Carneiro",
+            "sq": 6,
+            "url": "10.7.0.12"
+        },
+        {
+            "tag": "GAVEA",
+            "nome": "Gávea - Shop. da Gávea",
+            "sq": 7,
+            "url": "10.8.0.12"
+        },
+        {
+            "tag": "RISUL",
+            "nome": "Botafogo - Rio Sul",
+            "sq": 8,
+            "url": "10.9.0.12"
+        },
+        {
+            "tag": "NSHOP",
+            "nome": "Norte Shopping",
+            "sq": 9,
+            "url": "10.10.0.12"
+        },
+        {
+            "tag": "TIJUC",
+            "nome": "Tijuca - Shop. Tijuca",
+            "sq": 10,
+            "url": "10.11.0.12"
+        },
+        {
+            "tag": "LAGOS",
+            "nome": "Lago Sul - Set. Clubes",
+            "sq": 11,
+            "url": "10.12.0.12"
+        },
+        {
+            "tag": "BAR02",
+            "nome": "Barra - Praia Posto 6",
+            "sq": 12,
+            "url": "10.13.0.12"
+        },
+        {
+            "tag": "BOTAF",
+            "nome": "Botafogo - S. Clemente",
+            "sq": 13,
+            "url": "10.14.0.12"
+        },
+        {
+            "tag": "MARST",
+            "nome": "Marista",
+            "sq": 14,
+            "url": "10.15.0.12"
+        },
+        {
+            "tag": "ELDOR",
+            "nome": "Pinheiros - Eldorado",
+            "sq": "15",
+            "url": "10.16.0.12"
+        },
+        {
+            "tag": "MARKT",
+            "nome": "Morumbi - Market Place",
+            "sq": "16",
+            "url": "10.17.0.12"
+        },
+        {
+            "tag": "CAMPS",
+            "nome": "Campinas",
+            "sq": "17",
+            "url": "10.18.0.12"
+        },
+        {
+            "tag": "JARDS",
+            "nome": "Jardins - Consolação",
+            "sq": "18",
+            "url": "10.19.0.12"
+        },
+        {
+            "tag": "SAVAS",
+            "nome": "Savassi",
+            "sq": "19",
+            "url": "10.30.0.12"
+        },
+        {
+            "tag": "LEB02",
+            "nome": "Leblon - Ataulfo 1100",
+            "sq": "22",
+            "url": "10.20.0.12"
+        },
+        {
+            "tag": "BAR03",
+            "nome": "Barra - Península O2",
+            "sq": "23",
+            "url": "10.22.0.12"
+        },
+        {
+            "tag": "OLIMP",
+            "nome": "Vila Olímpia - Atílio",
+            "sq": "24",
+            "url": "10.28.0.12"
+        },
+        {
+            "tag": "VIANA",
+            "nome": "Shopping Granja Vianna",
+            "sq": "25",
+            "url": "10.21.0.12"
+        },
+        {
+            "tag": "SUDOE",
+            "nome": "Sudoeste",
+            "sq": "26",
+            "url": "10.25.0.12"
+        },
+        {
+            "tag": "INDIA",
+            "nome": "Indianópolis - Rubem B",
+            "sq": "27",
+            "url": "10.13.0.12"
+        },
+        {
+            "tag": "SANTA",
+            "nome": "Santana - Tupiguaés",
+            "sq": "28",
+            "url": "10.32.0.12"
+        },
+        {
+            "tag": "RECRE",
+            "nome": "Recreio - S. Allende",
+            "sq": "29",
+            "url": "10.29.0.12"
+        },
+        {
+            "tag": "NATAL",
+            "nome": "Tirol",
+            "sq": "30",
+            "url": "10.35.0.12"
+        },
+        {
+            "tag": "VELHA",
+            "nome": "Shop. Praia da Costa",
+            "sq": "31",
+            "url": "10.27.0.12"
+        },
+        {
+            "tag": "BELEM",
+            "nome": "Nazaré",
+            "sq": "32",
+            "url": "10.37.0.12"
+        },
+        {
+            "tag": "LAGON",
+            "nome": "Lago Norte - Iguatemi",
+            "sq": 33,
+            "url": "10.33.0.12"
+        },
+        {
+            "tag": "FARIA",
+            "nome": "Iguatemi - São Paulo",
+            "sq": 34,
+            "url": "10.52.0.12"
+        },
+        {
+            "tag": "ALPHA",
+            "nome": "Iguatemi - Alphaville",
+            "sq": 35,
+            "url": "10.50.0.12"
+        },
+        {
+            "tag": "PORTO",
+            "nome": "Mont Serrat",
+            "sq": 36,
+            "url": "10.45.0.12"
+        },
+        {
+            "tag": "SALVA",
+            "nome": "Shopping da Bahia",
+            "sq": 37,
+            "url": "10.40.0.12"
+        },
+        {
+            "tag": "CURIT",
+            "nome": "Shopping Crystal",
+            "sq": 38,
+            "url": "10.34.0.12"
+        },
+        {
+            "tag": "LEB03",
+            "nome": "Leblon - Ataulfo 467",
+            "sq": 39,
+            "url": "10.24.0.12"
+        },
+        {
+            "tag": "ITAIM",
+            "nome": "Itaim - Leopoldo",
+            "sq": 40,
+            "url": "10.54.0.12"
+        },
+        {
+            "tag": "BAR04",
+            "nome": "Barra - Érico Veríssimo",
+            "sq": 41,
+            "url": "10.55.0.12"
+        },
+        {
+            "tag": "BELVE",
+            "nome": "Belvedere",
+            "sq": 42,
+            "url": "10.26.0.12"
+        },
+        {
+            "tag": "RIPRE",
+            "nome": "Shop Iguatemi - Ribeirão",
+            "sq": 43,
+            "url": "10.56.0.12"
+        },
+        {
+            "tag": "SLUIS",
+            "nome": "Shopping da Ilha",
+            "sq": 44,
+            "url": "10.80.0.12"
+        },
+        {
+            "tag": "NITER",
+            "nome": "Icaraí",
+            "sq": 45,
+            "url": "10.81.0.12"
+        },
+        {
+            "tag": "COPA2",
+            "nome": "Copa - N.S Copacabana 1144",
+            "sq": 46,
+            "url": "10.82.0.12"
+        },
+        {
+            "tag": "RECIF",
+            "nome": "Shopping Recife",
+            "sq": 47,
+            "url": "10.83.0.12"
+        },
+        {
+            "tag": "MANGE",
+            "nome": "Jd. Botânico - M. Angélica",
+            "sq": 48,
+            "url": "10.98.0.12"
+        },
+        {
+            "tag": "JOCAC",
+            "nome": "Itaim - João Cachoeira",
+            "sq": 49,
+            "url": "10.65.0.12"
+        },
+        {
+            "tag": "FMALL",
+            "nome": "São Conrado - Fashion Mall",
+            "sq": 50,
+            "url": "10.112.0.12"
+        },
+        {
+            "tag": "JUSCE",
+            "nome": "Itaim - JK Iguatemi",
+            "sq": 51,
+            "url": "10.100.0.12"
+        },
+        {
+            "tag": "TERES",
+            "nome": "Shopping Rio Poty",
+            "sq": 52,
+            "url": "10.102.0.12"
+        },
+        {
+            "tag": "COP03",
+            "nome": "Copa - N.S Copacabana 446",
+            "sq": 53,
+            "url": "10.36.0.12"
+        }
+    ]
+}
