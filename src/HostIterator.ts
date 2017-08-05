@@ -10,14 +10,16 @@ class HostIterator implements IIterator {
         this._index = 0;
     }
 
-    next(): IHost {
+    public next(): IHost {
         let host = this._listHosts[this._index];
         this._index++;
         return host;
     }
-    hasNext(): Boolean {
-        if(this._index > this._listHosts.length - 1)
+    
+    public hasNext(): Boolean {
+        if(this._index < this._listHosts.length){
             return true
+        }
         return false;
     }
 }
