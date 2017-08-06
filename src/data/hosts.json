@@ -1,7 +1,28 @@
 {
-    "hosts":[
-        {"tag": "GOOGL", "url": "www.google.com"},
-        {"tag": "TERRA", "url": "www.terra.com"},
-        {"tag": "YAHOO", "url": "www.yahoo.com"}
+    "hosts": [
+        {
+            "tag": "GOOGL",
+            "url": "www.google.com"
+        },
+        {
+            "tag": "TERRA",
+            "url": "www.terra.com"
+        },
+        {
+            "tag": "YAHOO",
+            "url": "www.yahoo.com"
+        },
+        {
+            "tag": "SCAGO",
+            "url": "www.saocarlosagora.com.br"
+        },
+        {
+            "tag": "G1COM",
+            "url": "g1.globo.com"
+        },
+        {
+            "tag": "FAKE1",
+            "url": "www.fakosototal.com.br"
+        }
     ]
 }
