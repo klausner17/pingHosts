@@ -7,7 +7,6 @@
     "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "src/**/*.if.ts"
+    "node_modules"
   ]
 }

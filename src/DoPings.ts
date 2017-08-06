@@ -1,30 +1,23 @@
-import Host from './models/Host';
-import HostIterator from './iterator/HostIterator';
 import * as ping from 'ping';
-const HOSTS = require('./data/hosts.json');
 
 class DoPings{
 
-    private _iterator : HostIterator;
+    private _iterator : IIterator;
 
-    constructor(){
-        this.init();
+    constructor(iterator: IIterator){
+        this._iterator = iterator;
     }
 
-    public ping(){
+    public pingAll(){
         console.log('Pingando em todas os hosts.');
         console.log('===========================');
         while(this._iterator.hasNext()){
-            let host = this._iterator.next() as Host;
+            let host = this._iterator.next();
             ping.promise.probe(host.url)
             .then((res) => {
-                console.log(host.tag + ' is ' + (res.alive ? 'alive' : 'dead'));
+                console.log(host.description + ' is ' + (res.alive ? 'alive' : 'dead'));
             });
         }
-    }
-
-    init(){
-        this._iterator = new HostIterator(HOSTS['hosts']);
     }
 }
 
